@@ -8,8 +8,8 @@
 set -e
 
 SKILL_NAME="yuanqi-logo-assets"
-DEFAULT_REPO_HTTPS="https://github.com/yuanqitech/yuanqi-logo-assets.git"
-DEFAULT_REPO_SSH="git@github.com:yuanqitech/yuanqi-logo-assets.git"
+DEFAULT_REPO_HTTPS="https://github.com/SeeleWelt/yuanqi-logo-assets.git"
+DEFAULT_REPO_SSH="git@github.com:SeeleWelt/yuanqi-logo-assets.git"
 
 PROTOCOL="https"
 TARGET_AGENT="all"
