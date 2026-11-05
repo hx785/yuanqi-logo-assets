@@ -1,9 +1,9 @@
-# 元企科技 Logo 资产库 (YuanQi Tech Logo Skill)
+# 元企科技与机器人学校 Logo 资产库 (Logo Skill)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 [![Agent Skills Spec](https://img.shields.io/badge/Agent_Skills-1.0.0-emerald.svg)](./SKILL.md)
 
-元企科技官方全套矢量母版与透明位图资源库，原生适配 **Claude Code、OpenAI Codex、Tencent WorkBuddy、Antigravity、Cursor**。
+元企科技 (YuanQi Tech) 及旗下 yuanqee 机器人学校官方全套矢量母版与透明位图资源库，原生适配 **Claude Code、OpenAI Codex、Tencent WorkBuddy、Antigravity、Cursor**。
 
 ---
 
@@ -44,19 +44,30 @@ git clone git@github.com:hx785/yuanqi-logo-assets.git .agents/skills/yuanqi-logo
 
 ---
 
-## 常用资产与场景索引 (Quick Reference)
+## 资产速查 (Quick Reference)
 
-| 场景 | 推荐格式 | 推荐文件路径 |
-| :--- | :--- | :--- |
-| **日常通用 / 官网** | 512px Web / SVG | `02_png/yuanqi_logo_color_web_512.png`<br>`01_source/yuanqi_logo_color_master.svg` |
-| **深色底 / 暗黑模式** | 反白透明底 | `02_png/yuanqi_logo_white_web_512.png`<br>`01_source/yuanqi_logo_white_master.svg` |
-| **合同 / 黑白打印** | 单色纯黑 | `02_png/yuanqi_logo_black_office_2000.png`<br>`05_print/yuanqi_logo_black_print_cmyk.pdf` |
-| **头像 / App 图标** | 纯图标 (方形) | `03_avatar/yuanqi_logo_avatar_master_1080.png`<br>`02_png/yuanqi_logo_icon_apple_180.png` |
-| **网站 Favicon** | .ico 多分辨率 | `04_favicon/favicon.ico` |
-| **展会 / 招商画册** | 完整横版 / 4K | `01_source/yuanqi_logo_color_horizontal_master.svg`<br>`02_png/yuanqi_logo_color_hd_4000.png` |
+| 场景 | 推荐格式 | 元企科技 (YuanQi Tech) | yuanqee 机器人学校 (Robot School) |
+| :--- | :--- | :--- | :--- |
+| **日常通用 / 官网** | 512px Web / SVG | `02_png/yuanqi_logo_color_web_512.png`<br>`01_source/yuanqi_logo_color_master.svg` | `02_png/yuanqee_school_logo_color_web_512.png`<br>`01_source/yuanqee_school_logo_color_master.svg` |
+| **深色底 / 暗黑模式** | 反白透明底 | `02_png/yuanqi_logo_white_web_512.png`<br>`01_source/yuanqi_logo_white_master.svg` | `02_png/yuanqee_school_logo_white_web_512.png`<br>`01_source/yuanqee_school_logo_white_master.svg` |
+| **合同 / 黑白打印** | 单色纯黑 | `02_png/yuanqi_logo_black_office_2000.png`<br>`05_print/yuanqi_logo_black_print_cmyk.pdf` | `02_png/yuanqee_school_logo_black_office_2000.png`<br>`05_print/yuanqee_school_logo_black_print_cmyk.pdf` |
+| **头像 / App 图标** | 纯图标 (方形) | `03_avatar/yuanqi_logo_avatar_master_1080.png`<br>`02_png/yuanqi_logo_icon_apple_180.png` | `03_avatar/yuanqee_school_logo_avatar_master_1080.png`<br>`02_png/yuanqee_school_logo_icon_apple_180.png` |
+| **网站 Favicon** | .ico 多分辨率 | `04_favicon/favicon.ico` | `04_favicon/yuanqee_school_favicon.ico` |
+| **展会 / 宣传横幅** | 完整横版 / 4K | `01_source/yuanqi_logo_color_horizontal_master.svg`<br>`02_png/yuanqi_logo_color_hd_4000.png` | `01_source/yuanqee_school_logo_color_horizontal_master.svg`<br>`02_png/yuanqee_school_logo_color_hd_4000.png` |
 
-- **品牌核心色**：科技蓝 `#0E3183` (RGB: 14, 49, 131) | 深黑 `#141414` | 反白 `#FFFFFF`
-- **详细规约与代码集成**：详见 [SKILL.md](./SKILL.md) 与 [README.txt](./README.txt)
+### 品牌色彩规范
+- **元企科技 (YuanQi Tech)**：科技蓝 `#0E3183` (RGB: 14, 49, 131) | 黑色 `#141414` | 反白 `#FFFFFF`
+- **机器人学校 (Robot School)**：品牌蓝 `#0E3183` | 活力橙 `#EA5B18` (RGB: 234, 91, 24) | 文字黑 `#000000`
+
+### 检索脚本
+```bash
+# 查询机器人学校资产
+node scripts/get_logo.js --brand school --scenario default --json
+# 查询元企科技反白资产
+node scripts/get_logo.js --brand tech --scenario dark_mode --format svg
+```
+
+详细规范请参阅 [SKILL.md](./SKILL.md)。
 
 ---
 

@@ -1,9 +1,9 @@
 name: yuanqi-logo-assets
-version: 1.0.0
-displayName: 元企科技官方 Logo 资产库与智能选用技能
+version: 1.1.0
+displayName: 元企科技与机器人学校官方 Logo 资产库
 author: YuanQi Tech
 description: >-
-  元企科技 (YuanQi Tech) 官方 Logo 资产库与场景调用指南。当用户需要获取元企科技 Logo 素材、在网页/应用/文档中嵌入 Logo、配置社交媒体头像与封面、准备印刷品（名片/合同/易拉宝），或需要依据设计规范自动挑选最合适尺寸与配色的 Logo 资产时激活此 Skill。
+  元企科技 (YuanQi Tech) 及旗下 yuanqee 机器人学校官方 Logo 资产库与场景调用指南。支持按品牌（元企科技/机器人学校）、场景（官网/暗黑模式/合同/头像/Favicon/展会横幅）与格式（PNG/SVG/PDF/ICO）智能推荐与定位最优 Logo 资产。
 
 category: Design & Branding
 tags:
@@ -11,13 +11,20 @@ tags:
   - logo
   - design-system
   - yuanqi-tech
+  - yuanqee-school
   - assets
 
 inputs:
+  - name: brand
+    type: string
+    required: false
+    default: tech
+    description: 品牌主体（tech: 元企科技, school: yuanqee 机器人学校）
   - name: scenario
     type: string
     required: false
-    description: 目标使用场景（如：web_default、dark_mode、contract_print、avatar、business_card、expo_banner）
+    default: default
+    description: 目标使用场景（如：default、dark_mode、print_black、avatar、favicon、banner、app_icon）
   - name: format
     type: string
     required: false
