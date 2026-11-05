@@ -13,8 +13,8 @@ param(
 )
 
 $skillName = "yuanqi-logo-assets"
-$defaultRepoHttps = "https://github.com/SeeleWelt/yuanqi-logo-assets.git"
-$defaultRepoSsh = "git@github.com:SeeleWelt/yuanqi-logo-assets.git"
+$defaultRepoHttps = "https://github.com/hx785/yuanqi-logo-assets.git"
+$defaultRepoSsh = "git@github.com:hx785/yuanqi-logo-assets.git"
 
 $protocol = if ($Ssh) { "ssh" } else { "https" }
 $repoUrl = if ($Repo -ne "") { $Repo } elseif ($Ssh) { $defaultRepoSsh } else { $defaultRepoHttps }

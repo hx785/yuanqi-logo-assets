@@ -22,24 +22,24 @@
 #### macOS / Linux (Bash)
 ```bash
 # HTTPS 协议一键安�?(默认自动注册�?~/.claude, ~/.workbuddy, ~/.gemini)
-curl -fsSL https://raw.githubusercontent.com/SeeleWelt/yuanqi-logo-assets/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/hx785/yuanqi-logo-assets/main/install.sh | bash
 
 # 使用 SSH 协议安装
-curl -fsSL https://raw.githubusercontent.com/SeeleWelt/yuanqi-logo-assets/main/install.sh | bash -s -- --ssh
+curl -fsSL https://raw.githubusercontent.com/hx785/yuanqi-logo-assets/main/install.sh | bash -s -- --ssh
 
 # 安装到指定开发项目根目录
-curl -fsSL https://raw.githubusercontent.com/SeeleWelt/yuanqi-logo-assets/main/install.sh | bash -s -- --project /path/to/your-project
+curl -fsSL https://raw.githubusercontent.com/hx785/yuanqi-logo-assets/main/install.sh | bash -s -- --project /path/to/your-project
 ```
 
 #### Windows (PowerShell)
 ```powershell
-# HTTPS 协议一键安�?irm https://raw.githubusercontent.com/SeeleWelt/yuanqi-logo-assets/main/install.ps1 | iex
+# HTTPS 协议一键安�?irm https://raw.githubusercontent.com/hx785/yuanqi-logo-assets/main/install.ps1 | iex
 
 # 使用 SSH 协议安装
-& ([scriptblock]::Create((irm https://raw.githubusercontent.com/SeeleWelt/yuanqi-logo-assets/main/install.ps1))) -Ssh
+& ([scriptblock]::Create((irm https://raw.githubusercontent.com/hx785/yuanqi-logo-assets/main/install.ps1))) -Ssh
 
 # 安装到指定项目工程根目录
-& ([scriptblock]::Create((irm https://raw.githubusercontent.com/SeeleWelt/yuanqi-logo-assets/main/install.ps1))) -ProjectPath "D:\MyWebProject"
+& ([scriptblock]::Create((irm https://raw.githubusercontent.com/hx785/yuanqi-logo-assets/main/install.ps1))) -ProjectPath "D:\MyWebProject"
 ```
 
 ---
@@ -50,14 +50,14 @@ curl -fsSL https://raw.githubusercontent.com/SeeleWelt/yuanqi-logo-assets/main/i
 
 | 目标 Agent | 协议 | Git Clone 安装命令 |
 | :--- | :--- | :--- |
-| **Claude Code** | **SSH** | `git clone git@github.com:SeeleWelt/yuanqi-logo-assets.git ~/.claude/skills/yuanqi-logo-assets` |
-| | **HTTPS** | `git clone https://github.com/SeeleWelt/yuanqi-logo-assets.git ~/.claude/skills/yuanqi-logo-assets` |
-| **Tencent WorkBuddy** | **SSH** | `git clone git@github.com:SeeleWelt/yuanqi-logo-assets.git ~/.workbuddy/skills/yuanqi-logo-assets` |
-| | **HTTPS** | `git clone https://github.com/SeeleWelt/yuanqi-logo-assets.git ~/.workbuddy/skills/yuanqi-logo-assets` |
-| **Google Antigravity** | **SSH** | `git clone git@github.com:SeeleWelt/yuanqi-logo-assets.git ~/.gemini/config/skills/yuanqi-logo-assets` |
-| | **HTTPS** | `git clone https://github.com/SeeleWelt/yuanqi-logo-assets.git ~/.gemini/config/skills/yuanqi-logo-assets` |
-| **Codex / 项目工作�?* | **SSH** | `git clone git@github.com:SeeleWelt/yuanqi-logo-assets.git .agents/skills/yuanqi-logo-assets` |
-| | **HTTPS** | `git clone https://github.com/SeeleWelt/yuanqi-logo-assets.git .agents/skills/yuanqi-logo-assets` |
+| **Claude Code** | **SSH** | `git clone git@github.com:hx785/yuanqi-logo-assets.git ~/.claude/skills/yuanqi-logo-assets` |
+| | **HTTPS** | `git clone https://github.com/hx785/yuanqi-logo-assets.git ~/.claude/skills/yuanqi-logo-assets` |
+| **Tencent WorkBuddy** | **SSH** | `git clone git@github.com:hx785/yuanqi-logo-assets.git ~/.workbuddy/skills/yuanqi-logo-assets` |
+| | **HTTPS** | `git clone https://github.com/hx785/yuanqi-logo-assets.git ~/.workbuddy/skills/yuanqi-logo-assets` |
+| **Google Antigravity** | **SSH** | `git clone git@github.com:hx785/yuanqi-logo-assets.git ~/.gemini/config/skills/yuanqi-logo-assets` |
+| | **HTTPS** | `git clone https://github.com/hx785/yuanqi-logo-assets.git ~/.gemini/config/skills/yuanqi-logo-assets` |
+| **Codex / 项目工作�?* | **SSH** | `git clone git@github.com:hx785/yuanqi-logo-assets.git .agents/skills/yuanqi-logo-assets` |
+| | **HTTPS** | `git clone https://github.com/hx785/yuanqi-logo-assets.git .agents/skills/yuanqi-logo-assets` |
 
 ---
 
