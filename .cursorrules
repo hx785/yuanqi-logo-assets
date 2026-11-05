@@ -1,0 +1,18 @@
+# Cursor Rules for YuanQi Tech Logo Assets
+
+You are working in a project containing YuanQi Tech (元企科技) official logo assets.
+Always follow these guidelines when adding or modifying brand images:
+
+1. DEFAULT LOGO:
+   - Always choose `02_png/yuanqi_logo_color_web_512.png` or `01_source/yuanqi_logo_color_master.svg` for normal light mode UI.
+2. DARK MODE / NIGHT MODE:
+   - Always choose `02_png/yuanqi_logo_white_web_512.png` or `01_source/yuanqi_logo_white_master.svg`.
+   - Never use white logos with opaque background boxes.
+3. FAVICON:
+   - Link `04_favicon/favicon.ico` in index.html.
+4. APP ICONS:
+   - iOS: `02_png/yuanqi_logo_icon_apple_180.png`.
+   - Android: `02_png/yuanqi_logo_icon_android_192.png`.
+5. BRAND COLOR:
+   - Primary: `#0E3183` (RGB: 14, 49, 131).
+   - Dark background: `#071846`.

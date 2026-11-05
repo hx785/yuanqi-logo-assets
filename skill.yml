@@ -1,0 +1,40 @@
+name: yuanqi-logo-assets
+version: 1.0.0
+displayName: 元企科技官方 Logo 资产库与智能选用技能
+author: YuanQi Tech
+description: >-
+  元企科技 (YuanQi Tech) 官方 Logo 资产库与场景调用指南。当用户需要获取元企科技 Logo 素材、在网页/应用/文档中嵌入 Logo、配置社交媒体头像与封面、准备印刷品（名片/合同/易拉宝），或需要依据设计规范自动挑选最合适尺寸与配色的 Logo 资产时激活此 Skill。
+
+category: Design & Branding
+tags:
+  - branding
+  - logo
+  - design-system
+  - yuanqi-tech
+  - assets
+
+inputs:
+  - name: scenario
+    type: string
+    required: false
+    description: 目标使用场景（如：web_default、dark_mode、contract_print、avatar、business_card、expo_banner）
+  - name: format
+    type: string
+    required: false
+    default: png
+    description: 期望格式（png, svg, pdf, ico）
+  - name: size
+    type: string
+    required: false
+    description: 指定像素或物理尺寸（如：512, 4000, 1080, 180）
+
+entryPoint:
+  instructionFile: SKILL.md
+  helperScript: scripts/get_logo.js
+
+compatibility:
+  workbuddy: ">=1.0.0"
+  claude-code: ">=1.0.0"
+  codex: "all"
+  antigravity: "all"
+  cursor: "all"
